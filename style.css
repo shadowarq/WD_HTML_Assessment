@@ -1,0 +1,125 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgba(40, 201, 201, 0.904);
+}
+.chart {
+  height: 500px;
+  width: 1000px;
+  margin-left: 450px;
+  margin-top: 180px;
+}
+h2 {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #777;
+}
+.address {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.add1,
+.add2,
+.add3 {
+  padding: 10px;
+  margin-top: 30px;
+  height: 110px;
+  width: 100%;
+  background-color: white;
+}
+.add2 {
+  padding-top: 50px;
+}
+.fa-location-dot {
+  padding-top: 25px;
+  padding-left: 50px;
+  color: red;
+  font-size: 40px;
+}
+.red {
+  color: #eb0449;
+}
+.blue {
+  color: rgb(22, 184, 249);
+}
+.main {
+  display: flex;
+  margin-top: 30px;
+  background-color: white;
+}
+.sub1 {
+  padding: 20px;
+  border-radius: 8px;
+  width: 500px;
+}
+
+.box {
+  height: 50px;
+  width: 225px;
+  padding-left: 10px;
+}
+.bx {
+  width: 475px;
+}
+.btn > button {
+  width: 90px;
+  height: 50px;
+  border-radius: 7px;
+  background-color: #eb3a04;
+  border: none;
+}
+button {
+  padding: 10px;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.sub1 form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-group {
+  flex-basis: 48%;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group.full-width {
+  flex-basis: 100%;
+}
+
+.form-group label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+.sub2 {
+  padding: 15px;
+}
+
+.fa-brands {
+  font-size: 40px;
+  height: 50px;
+  width: 40px;
+}
